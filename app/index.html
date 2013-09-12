@@ -27,10 +27,37 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-  <div class="container">
-    <section id="home">
-      <header>  
-        <div id="logo" class="pull-left">
+  <!--<div class="container"> -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+
+            <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <!-- Everything you want hidden at 940px or less, place within here -->
+            <div>
+              <header>  
+                <a class="brand pull-left" href="#">The Student Dream</a>
+                <nav id="navigation" class="pull-right">
+                  <ul class="nav nav-pills">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#we-produce">We Produce</a></li>
+                    <li><a href="#why-this-matters">Why This Matters</a></li>
+                    <li><a href="#the-dream-team">The Dream Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </nav>
+              <!-- .nav, .navbar-search, .navbar-form, etc -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--<header class="navbar navbar-fixed-top navbar-inner">  
+        <div id="logo", class="pull-left">
           <a href="#">The Student Dream</a>
         </div>
         <nav id="navigation" class="pull-right">
@@ -42,29 +69,33 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
-      </header>
-      <h1>Breathing Life Into Great Ideas</h1>
-      <h2>We LOVE launching startups founded by black and latino college students</h2>
+      </header> -->
+    <section id="home">
+      <h1>BREATHING LIFE INTO GREAT IDEAS</h1>
+      <h4>We LOVE launching startups founded by black and latino college students</h4>
       <div>
         <div id="mc_embed_signup">
-        <form action="http://studentdream.us7.list-manage.com/subscribe/post?u=897ed2ca34dd33925db8eab99&amp;id=9bc47f669d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        	<label for="mce-EMAIL">If you've got a dream or want to learn more, sign up</label>
-        	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-        	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-        </form>
+          <form action="http://studentdream.us7.list-manage.com/subscribe/post?u=897ed2ca34dd33925db8eab99&amp;id=9bc47f669d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
+        	  <label for="mce-EMAIL">If you've got a dream or want to learn more, sign up</label>
+        	  <input type="email" value="" name="EMAIL" class="email input-xlarge" id="mce-EMAIL" placeholder="email address" required>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn">
+          </form>
         </div>
       </div>
     </section>
     <section id="we-produce">
       <h2>We Produce</h2>
-      <div>
-        <h3>Startup Skills Training</h3>
+      <div class="span3">
+        <h4>Startup Skills Training</h4>
       </div>
-      <div>
-        <h3>Startup Community</h3>
+      <div class="span3">
+        <h4>Startup Community</h4>
       </div>
-      <div>
-        <h3>Demo Day</h3>
+      <div class="span3">
+        <h4>Apprenticeship</h4>
+      </div>
+      <div class="span3">
+        <h4>Demo Day</h4>
       </div>
     </section>
     <section id="why-this-matters">
@@ -77,7 +108,7 @@
     <section id="contact">
       <h2>Contact</h2>
     </section>
-  </div><!-- build:js scripts/vendor.js -->
+  <!--</div>--><!-- build:js scripts/vendor.js -->
   <!-- bower:js -->
   <script src="bower_components/jquery/jquery.js" type="text/javascript">
 </script><!-- endbower -->

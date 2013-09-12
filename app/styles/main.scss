@@ -2,6 +2,81 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import 'sass-bootstrap/lib/bootstrap';
 
+body {
+	padding-top: 60px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+a {
+	color: yellow;
+}
+
+h2 {
+	color: gray;
+}
+
+header {
+	clear: both;
+	height: 40px;
+}
 section {
-    height: 300px;
+	background-size: cover;
+    height: 750px;
+}
+
+.navbar-inner {
+	background: black;
+	@include box-shadow(none !important);
+    border: 0;
+}
+
+.brand {
+	font-size: 30px;
+}
+
+#home {
+	padding-top: 200px;
+}
+
+#home h2 {
+	padding: 0;
+}
+
+.row-fluid {
+	display: table;
+	clear: both;
+	width: 100%;
+}
+
+.span3 {
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+h1 {
+	margin: 10px 0;
+}
+
+h2 {
+	padding-top: 60px;
+}
+
+h4 {
+	color: gray;
+	padding-bottom: 20px;
+}
+
+#we-produce {
+	text-align: center;
+}
+
+#the-dream-team {
+	background: url('https://sphotos-a-iad.xx.fbcdn.net/hphotos-ash3/1239885_1420707634820380_219603826_n.jpg');
+}
+
+#the-dream-team h2 {
+	
+	color: white;
 }
