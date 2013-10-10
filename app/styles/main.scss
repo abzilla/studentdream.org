@@ -3,26 +3,33 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 @import 'sass-bootstrap/lib/bootstrap';
 
 body {
-	padding-top: 60px;
 	margin: 0 auto;
 	text-align: center;
 }
 
-a {
-	color: yellow;
+#navigation {
+	line-height: 23px;
+	min-height: 45px;
 }
 
-h2 {
-	color: gray;
+#navigation a {
+	font-family: "Gentium Basic";
+	font-size: 12px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+a {
+	color: #ee7b46;
 }
 
 header {
 	clear: both;
-	height: 40px;
 }
 section {
-	background-size: cover;
-    height: 750px;
+	margin-top: 20px;
+    min-height: 800px;
+	padding-top: 20px;
 }
 
 .navbar-inner {
@@ -32,51 +39,61 @@ section {
 }
 
 .brand {
+	font-family: 'Lato', sans-serif;
 	font-size: 30px;
 }
 
 #home {
+	background: url(../images/student-dream-black-and-white.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 	padding-top: 200px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 
 #home h2 {
 	padding: 0;
 }
 
-.row-fluid {
-	display: table;
-	clear: both;
-	width: 100%;
-}
-
-.span3 {
-	float: left;
-	text-align: center;
-	width: 20%;
-}
-
 h1 {
+	color: #ee7b46;
+	font-size: 50px;
+	font-weight: bold;
 	margin: 10px 0;
+	text-transform: uppercase;
 }
 
 h2 {
+	color: #000;
 	padding-top: 60px;
 }
 
 h4 {
-	color: gray;
+	color: #ee7b46;
 	padding-bottom: 20px;
 }
 
-#we-produce {
+label {
+	color: #fff;
+}
+
+.email {
+	padding: 5px;
+	width: 300px;
+}
+
+#story {
 	text-align: center;
 }
 
-#the-dream-team {
-	background: url('https://sphotos-a-iad.xx.fbcdn.net/hphotos-ash3/1239885_1420707634820380_219603826_n.jpg');
+#dream-team {
+	background: no-repeat center center fixed #000;
+	background-image: url('https://sphotos-a-iad.xx.fbcdn.net/hphotos-ash3/1239885_1420707634820380_219603826_n.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
 }
 
-#the-dream-team h2 {
-	
-	color: white;
+#dream-team h2 {
+	color: #000;
 }
